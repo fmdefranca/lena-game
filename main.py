@@ -18,6 +18,8 @@ def main():
         r'C:\Projects\lena-game\images\cat.jpg')
     dog_image = pygame.image.load(
         r'C:\Projects\lena-game\images\dog.jpg')
+    cat_image = pygame.transform.scale(cat_image, (950, 950))
+    dog_image = pygame.transform.scale(dog_image, (550,850))
 
     # initializes Pygame
     pygame.init()
